@@ -1,0 +1,81 @@
+body, h1 {
+  margin: 0px;
+}
+#scene{
+  height: 800px;
+  background-size: cover;
+}
+.one{background-image: url(img/images/webs_07.png);}
+.two{background-image: url(img/images/webs_08.png);}
+.three{background-image: url(img/images/webs_09.png);}
+#scene h1{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+
+/*---푸터 스타일 지정---*/
+footer{
+height: 100px;
+background-color: rgba(0, 0, 0, 0.2);
+}
+.footer{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: gray;
+}
+/*---네비 구분 적용---*/
+.wrap{
+  height: 100px;
+  width: 100%;
+  position: static;
+  background-color: white;
+  z-index: 10;
+}
+.logo{
+  display: inline-block;
+  margin-left: 240px;
+}
+.nav{
+  border: 0px solid red;
+  display: inline-block;
+  position: absolute;
+  right: 240px;
+  top: 35px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.space{margin-left: 2rem;}
+
+/*---메뉴 컬러및 롤오버 처리---*/
+a, a:link :visited :active{
+  text-decoration: none;
+  color: gray;
+}
+a:hover{
+  color: #da0812;
+}
+
+/*---서브페이지 관리---*/
+.bodywrap{
+  top: 100px;
+  width:100%;
+  height: 100%;
+}
+.page{
+  border: 0px solid red;
+  position: relative;
+  width: 1440px;
+  height: 8173px;
+  left: 50%;
+  transform: translateX(-50%);
+  }
